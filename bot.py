@@ -18,7 +18,9 @@ def help(updater,context):
 
 def add_group(update: Update, context: CallbackContext):
     for member in update.message.new_chat_members:
-        update.message.reply_text(f'Hello {member.full_name} ,  LÜTFEN BURA MESAJI OKUMADAN KATILMIŞ OLDUĞUNUZ "EkoHarita - SADEC ACİL ÇAĞRILAR - www.ekoharita.org" (https://t.me/ekoharita) GRUBUNA MESAJ ATMAYIN. (2dk) 
+        update.message.reply_text(f'Hello {member.full_name} ,  Selamlar, ben Alper. Bu mesaj size "EkoHarita - SADECE ACİL ÇAĞRILAR - www.ekoharita.org" (https://t.me/ekoharita) grubuna katıldığınız için gönderiliyor.
+
+LÜTFEN BU MESAJI OKUMADAN GRUBUN SAĞLIĞI, KALICILIĞI ve KATILIMCILARIN BİLGİYE RAHATÇA ULAŞABİLMESİ İÇİN MESAJ ATMAYIN. (2dk) 
 -------------------------------------------------------------------------
 :cyclone: Bu grup bir sohbet grubu değildir. 
 :cyclone: Bu grup sadece ACİL çağrılar/paylaşımlar/duyurular için oluşturulmuştur. 
