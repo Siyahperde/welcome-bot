@@ -19,7 +19,7 @@ def help(updater,context):
 def add_group(update: Update, context: CallbackContext):
     for member in update.message.new_chat_members:
         update.message.reply_text(f'Hello {member.full_name} ,  DÜNYA VARMIŞ!
-Selamlar, ben Alper. Bu mesaj size "EkoHarita - HABERLEŞME / SADECE ACİL - www.ekoharita.org" grubuna katıldığınız için gönderiliyor.
+Selamlar... Bu mesaj size "EkoHarita - HABERLEŞME / SADECE ACİL - www.ekoharita.org" grubuna katıldığınız için gönderiliyor.
 
 LÜTFEN BU MESAJI OKUMADAN GRUBUN SAĞLIĞI, KALICILIĞI ve KATILIMCILARIN BİLGİYE RAHATÇA ULAŞABİLMESİ İÇİN MESAJ ATMAYIN. (2dk) 
 -------------------------------------------------------------------------
